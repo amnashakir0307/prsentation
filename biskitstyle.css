@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+}
+.arow{
+    font-size: 30px;
+    color: brown;
+}
+ .product-container .box
+{
+    
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.5rem;
+    box-shadow: var(box-shadow);
+    display: flex;
+   background-color: burlywood;
+    border: 3px solid rgb(63, 4, 4)"
+;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 3px solid burlywood;
+}
+.box:hover{
+     transform: translateY(-30px);
+}
+.twocard {
+    display: flex;
+margin: 25px;
+}
+.product-container{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit),minmax(17rem,auto); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
+    /* margin-top: 2rem; */
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .heading{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   color: white;
+    font-weight:bolder;
+    font-size:52px;
+    font-weight: 900;
+   
+    margin-bottom: 40px;
+ }
+
+ .products .heading h2{
+    display: flex;
+    justify-content: space-around;
+ }
+.product-container img{
+ width:fit-content;
+height: 250px;
+object-fit: contain;
+object-position: center;
+padding: 5px;
+/* background-color:brown; */
+border-radius: 0.5rem;
+}
+.product-container .box p{
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(158, 81, 81); 
+    font-size: small;
+}
+.cardh2{
+    font-weight: 400;
+    color: brown;
+}
+.cardbtn{
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    border-radius: 4px;
+    margin: 10px;
+    border: 4px solid brown;
+    box-shadow: 4px 1px 1px burlywood;
+}
+.cardbtn:hover {animate__rotateIn}
+.cardbtn:hover{
+ border-color: burlywood;
+}
+.product-container .box .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.product-container .box .content span{
+    padding: 0 1rem;
+  
+    /* background-color: maroon; */
+    border: 4px;
+    font-weight: 500;
+       border: 2px solid brown;
+color: brown;
+    font-weight: bold;
+          box-shadow: 1px 2px 1px 2px rgb(189, 137, 69);
+
+}
+.heroimg{
+width: 100%;
+height:75%;
+object-fit: cover;
+
+}
+.back{
+    margin-top: 90%;
+}
+.herodiv {
+    width: 100%;
+    height:75%;
+    position: relative;
+}
+.extrahero{
+    height:120px;
+width: 100%;
+
+}
+.prize{
+    color: brown;
+    font-weight: 300;
+     text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:medium;
+}
+ .content span:hover{
+   
+background-color:rgb(219, 174, 114);
+border-color: burlywood;
+
+ /* color: black; */
+}
+.content span{
+    color: white;
+}
+.coffe{
+    margin-bottom: 5px;
+}
+.content button{
+      background-color:maroon;
+
+        box-shadow: 2px 2px 1px 2px rgb(189, 137, 69);
+        color: white;
+        border: px solid brown;
+}
+.content button:hover{
+    background-color: rgb(187, 44, 8);
+}
+.box{
+    animation:appear 5s linear;
+    animation-timeline:view();
+    animation-range:entry 20% ;
+}
+@keyframes appear{
+    from{
+        opacity: 1;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+    .box
+}

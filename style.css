@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ......................... */
+.cards{
+    display: flex;
+}
+.logoos{
+    display: flex;
+    /* justify-content:space-around; */
+    /* padding-left: 25%; */
+    position:sticky;
+    position: fixed;
+    /* box-sizing: border-box; */
+      justify-content:space-between;   
+       align-items: center;
+    
+    z-index: 1;
+    background-color:brown;
+    /* top: 0; */
+    right: 0;
+    /* bottom: 0; */
+    left: 0;
+}
+.logos{
+    display: flex;
+    
+        /* justify-content:space-between;    align-items: center; */
+    list-style-type: none;
+
+}
+.logos li{
+
+display: flex;
+/* justify-content:space-between; */
+
+padding-right:95px;
+vertical-align: middle;
+
+}
+.logoos{
+    display: flex;
+    justify-content: space-around;
+
+}
+.head{
+    font-size: larger;
+    font-weight: 700;
+}
+.h3d{
+    font-size:larger;
+}
+.logobk{
+    background-color: rgb(100, 81, 81);
+}
+@media (max-width:978px){
+ .logos li{
+    /* margin-left: 5%; */
+padding-right: 0%;
+ }
+ a img{
+width: 55px;
+}
+.extrahero{
+    height: 65px;
+}
+.heading{
+    font-size: 25px;
+}
+.box{
+margin-top: 25px;
+}
