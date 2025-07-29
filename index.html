@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Shop Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark px-3">
+  <div class="container-fluid">
+    <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
+      ☰
+    </button>
+    <span class="navbar-brand">Coffee Shop Dashboard</span>
+    <form class="d-flex ms-auto">
+      <input class="form-control form-control-sm me-2" type="search" placeholder="Search Orders">
+      <button class="btn btn-sm btn-outline-light">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse show">
+      <div class="position-sticky">
+        <h5 class="text-center py-3 border-bottom">Menu</h5>
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Orders</a>
+        <a href="#">Inventory</a>
+        <a href="#">Customers</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-4">
+      <!-- Cards -->
+      <div class="row g-3 mb-4">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card-box bg-brown">
+            <h6>Today’s Orders</h6>
+            <h4>120</h4>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card-box bg-lightbrown">
+            <h6>Pending</h6>
+            <h4>35</h4>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card-box bg-brown">
+            <h6>Delivered</h6>
+            <h4>95</h4>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card-box bg-lightbrown">
+            <h6>Total Revenue</h6>
+            <h4>$1,200</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coffee Orders Table -->
+      <div class="data-table-container">
+        <h5 class="mb-3">Recent Coffee Orders</h5>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>#Order ID</th>
+                <th>Customer</th>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#1001</td>
+                <td>Ali Khan</td>
+                <td>Cappuccino</td>
+                <td>2</td>
+                <td>$8</td>
+                <td><span class="badge bg-success">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>#1002</td>
+                <td>Sara Ahmed</td>
+                <td>Latte</td>
+                <td>1</td>
+                <td>$4</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+              </tr>
+              <tr>
+                <td>#1003</td>
+                <td>John Doe</td>
+                <td>Espresso</td>
+                <td>3</td>
+                <td>$9</td>
+                <td><span class="badge bg-success">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>#1004</td>
+                <td>Maryam Noor</td>
+                <td>Mocha</td>
+                <td>2</td>
+                <td>$10</td>
+                <td><span class="badge bg-danger">Cancelled</span></td>
+              </tr>
+              <tr>
+                <td>#1005</td>
+                <td>Imran Ali</td>
+                <td>Americano</td>
+                <td>1</td>
+                <td>$3</td>
+                <td><span class="badge bg-success">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>#1006</td>
+                <td>Linda Smith</td>
+                <td>Cold Brew</td>
+                <td>2</td>
+                <td>$7</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+              </tr>
+              <tr>
+                <td>#1007</td>
+                <td>Usman Tariq</td>
+                <td>Latte</td>
+                <td>1</td>
+                <td>$4</td>
+                <td><span class="badge bg-success">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>#1008</td>
+                <td>Anna Lee</td>
+                <td>Cappuccino</td>
+                <td>2</td>
+                <td>$8</td>
+                <td><span class="badge bg-success">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>#1009</td>
+                <td>David Brown</td>
+                <td>Espresso</td>
+                <td>3</td>
+                <td>$9</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+              </tr>
+              <tr>
+                <td>#1010</td>
+                <td>Fatima Zahra</td>
+                <td>Mocha</td>
+                <td>2</td>
+                <td>$10</td>
+                <td><span class="badge bg-success">Delivered</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
